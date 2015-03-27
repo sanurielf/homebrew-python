@@ -80,8 +80,8 @@ class Matplotlib < Formula
   cxxstdlib_check :skip
 
   resource "dateutil" do
-    url "https://pypi.python.org/packages/source/p/python-dateutil/python-dateutil-2.4.1.tar.gz"
-    sha256 "23fd0a7c228d9c298c562245290a3f82999586c87aae71250f95f9894cb22c7c"
+    url "https://pypi.python.org/packages/source/p/python-dateutil/python-dateutil-2.4.1.tar.bz2"
+    sha256 "ee322d3f7f8f1ac28674477b50abc4912a7b1b92961494aa330d091cf591b635"
   end
 
   resource "mock" do
